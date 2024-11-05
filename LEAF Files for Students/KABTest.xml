@@ -80,7 +80,7 @@
 	}
 }]]>
         </rdf:Description>
-      </rdf:RDF></xenoData></teiHeader> 	<text> 		<body> 			<pb facs="https://raw.githubusercontent.com/kmabennett/LEAF/refs/heads/main/5-Europa-Ort-1.jpg"/> 			<div> 				<head>EVROPA<note>Foreign</note>.</head> 				<p>THE countries of Europe, as we ....</p><p>
+      </rdf:RDF></xenoData></teiHeader> 	<text> 		<body> 			<pb facs="https://raw.githubusercontent.com/kmabennett/LEAF/refs/heads/main/5-Europa-Ort-1.jpg"/> 			<div> 				<head><foreign ana="Latin" cert="high" generatedBy="human" xml:space="default">EVROPA</foreign><note>Foreign</note>.</head> 				<p>THE countries of Europe, as we ....</p><p>
 Emma Hogarty - Asia
 Darren Cournoyer - The Terrestrial Globe
 Eden Hudson - Britannie 
