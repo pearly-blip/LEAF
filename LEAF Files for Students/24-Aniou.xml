@@ -47,7 +47,6 @@
 	"id": "https://raw.githubusercontent.com/pearly-blip/LEAF/main/LEAF%20Files%20for%20Students/24-Aniou.xml?place_annotation_20241107144950460",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-11-07T19:49:50.460Z",
-	"dcterms:modified": "2024-11-07T19:49:50.460Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/pearly-blip",
 		"@type": [
@@ -74,7 +73,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/pearly-blip/LEAF/main/LEAF%20Files%20for%20Students/24-Aniou.xml?place_annotation_20241107144950460#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p/placeName[2]"
+			"rdf:value": "TEI/text/body/div/p/placeName"
 		}
 	},
 	"oa:hasBody": {
@@ -128,7 +127,6 @@
 	"id": "https://raw.githubusercontent.com/pearly-blip/LEAF/main/LEAF%20Files%20for%20Students/24-Aniou.xml?place_annotation_20241107145226480",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-11-07T19:52:26.480Z",
-	"dcterms:modified": "2024-11-07T19:52:26.480Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/pearly-blip",
 		"@type": [
@@ -155,7 +153,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/pearly-blip/LEAF/main/LEAF%20Files%20for%20Students/24-Aniou.xml?place_annotation_20241107145226480#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p/placeName[3]"
+			"rdf:value": "TEI/text/body/div/p/placeName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -236,7 +234,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/pearly-blip/LEAF/main/LEAF%20Files%20for%20Students/24-Aniou.xml?place_annotation_20241107150137962#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p/placeName[4]"
+			"rdf:value": "TEI/text/body/div/p/placeName[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -315,7 +313,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/pearly-blip/LEAF/main/LEAF%20Files%20for%20Students/24-Aniou.xml?place_annotation_20241107150815810#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p[2]/placeName[3]"
+			"rdf:value": "TEI/text/body/div/p[2]/placeName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -338,7 +336,7 @@
 			<pb facs="https://github.com/kmabennett/LEAF/blob/main/24-Aniou-Ort-1.jpg"/>
 			<div>
 				<head>ANIOU</head>
-				<p>The Dukedome of [<placeName>Aniou</placeName>] lieth (northword) in the well parte of [<placeName key="France" ref="http://www.wikidata.org/entity/Q142" cert="high">France<precision match="@ref" precision="high"/></placeName>] ioyning upon [Britannic]. It is not great, howbeit very good, for that there is not any country in <placeName key="France" ref="http://www.wikidata.org/entity/Q142" cert="high">France<precision match="@ref" precision="high"/></placeName> that exceedeth it in fertillitie of folie. It hath plenty wyne, ſtore of corne, and aboundeth in kyne, &amp; ſheepe, &amp; hath great ſtore of fiſh throughtout many fiſhpondes therein, &amp; aboue 36 rivers, whereof the [<placeName key="Loyre" ref="http://www.wikidata.org/entity/Q3264448">Loyre</placeName>] and the [Mayne] are principal. It is beautiful with pleaſant medows, woods, foreſts &amp; mountaines, &amp; in the mountaines are quarries if freeſtone, marble &amp; ſlate.</p><p>The principall towne of this Dachie is [<placeName type="village">Anglers</placeName>], ſituate on either ſyde of the rieuer of [<placeName type="river">Mayne</placeName>]. It is of great antiquitie, which is witneſſed by the ruynes of a [<placeName key="theatre building" ref="http://www.wikidata.org/entity/Q24354">Theatre</placeName>] not farr from it. It hath a very faire bridge oner the riuer of [<placeName type="river">Mayne</placeName>] all buylt of free ſtone, It hath alſo a famous vniuerſitie which was founded in the yeare of our Lord 1387.</p></div>
+				<p>The Dukedome of [Aniou] lieth (northword) in the well parte of [<placeName key="France" ref="http://www.wikidata.org/entity/Q142" cert="high">France<precision match="@ref" precision="high"/></placeName>] ioyning upon [Britannic]. It is not great, howbeit very good, for that there is not any country in <placeName key="France" ref="http://www.wikidata.org/entity/Q142" cert="high">France<precision match="@ref" precision="high"/></placeName> that exceedeth it in fertillitie of folie. It hath plenty wyne, ſtore of corne, and aboundeth in kyne, &amp; ſheepe, &amp; hath great ſtore of fiſh throughtout many fiſhpondes therein, &amp; aboue 36 rivers, whereof the [<placeName key="Loyre" ref="http://www.wikidata.org/entity/Q3264448">Loyre</placeName>] and the [Mayne] are principal. It is beautiful with pleaſant medows, woods, foreſts &amp; mountaines, &amp; in the mountaines are quarries if freeſtone, marble &amp; ſlate.</p><p>The principall towne of this Dachie is [Angiers], ſituate on either ſyde of the rieuer of [<placeName type="river">Mayne</placeName>]. It is of great antiquitie, which is witneſſed by the ruynes of a [<placeName key="theatre building" ref="http://www.wikidata.org/entity/Q24354">Theatre</placeName>] not farr from it. It hath a very faire bridge oner the riuer of [<placeName type="river">Mayne</placeName>] all buylt of free ſtone, It hath alſo a famous vniuerſitie which was founded in the yeare of our Lord 1387.</p></div>
 		</body>
 	</text>
 </TEI>
