@@ -12,13 +12,94 @@
 					otherwise noted.</p>
 			</sourceDesc>
 		</fileDesc>
-		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/pearly-blip/LEAF/main/LEAF%20Files%20for%20Students/24-Aniou.xml?place_annotation_20241107144950460",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-07T19:49:50.460Z",
+	"dcterms:modified": "2024-11-07T19:49:50.460Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/pearly-blip",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Emily Monaco"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/pearly-blip/LEAF/main/LEAF%20Files%20for%20Students/24-Aniou.xml?place_annotation_20241107144950460#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/pearly-blip/LEAF/main/LEAF%20Files%20for%20Students/24-Aniou.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/pearly-blip/LEAF/main/LEAF%20Files%20for%20Students/24-Aniou.xml?place_annotation_20241107144950460#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q142",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<pb facs="https://github.com/kmabennett/LEAF/blob/main/24-Aniou-Ort-1.jpg"/>
 			<div>
 				<head>ANIOU</head>
-				<p>The Dukedome of [<placeName>Aniou</placeName>] lieth (northword) in the well parte of [France] ioyning upon [Britannic]. It is not great, howbeit very good, for that there is not any country in France that exceedeth it in fertillitie of folie. It hath plenty wyne, ſtore of corne, and aboundeth in kyne, &amp; ſheepe, &amp; hath great ſtore of fiſh throughtout many fiſhpondes therein, &amp; aboue 36 rivers, whereof the [Loyre] and the [Mayne] are principal. It is beautiful with pleaſant medows, woods, foreſts &amp; mountaines, &amp; in the mountaines are quarries if freeſtone, marble &amp; ſlate.The principall towne of this Dachie is [Anglers], ſituate on either ſyde of the rieuer of [Mayne]. It is of great antiquitie, which is witneſſed by the ruynes of a [Tbeatre] not farr from it. It hath a very faire bridge oner the riuer of [Mayne] all buylt of free ſtone, It hath alſo a famous vniuerſitie which was founded in the yeare of our Lord 1387.</p></div>
+				<p>The Dukedome of [<placeName>Aniou</placeName>] lieth (northword) in the well parte of [<placeName key="France" ref="http://www.wikidata.org/entity/Q142" cert="high">France<precision match="@ref" precision="high"/></placeName>] ioyning upon [Britannic]. It is not great, howbeit very good, for that there is not any country in France that exceedeth it in fertillitie of folie. It hath plenty wyne, ſtore of corne, and aboundeth in kyne, &amp; ſheepe, &amp; hath great ſtore of fiſh throughtout many fiſhpondes therein, &amp; aboue 36 rivers, whereof the [Loyre] and the [Mayne] are principal. It is beautiful with pleaſant medows, woods, foreſts &amp; mountaines, &amp; in the mountaines are quarries if freeſtone, marble &amp; ſlate.The principall towne of this Dachie is [Anglers], ſituate on either ſyde of the rieuer of [Mayne]. It is of great antiquitie, which is witneſſed by the ruynes of a [Tbeatre] not farr from it. It hath a very faire bridge oner the riuer of [Mayne] all buylt of free ſtone, It hath alſo a famous vniuerſitie which was founded in the yeare of our Lord 1387.</p></div>
 		</body>
 	</text>
 </TEI>
