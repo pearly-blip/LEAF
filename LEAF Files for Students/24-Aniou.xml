@@ -571,13 +571,92 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/pearly-blip/LEAF/main/LEAF%20Files%20for%20Students/24-Aniou.xml?place_annotation_20241107153354396",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-07T20:33:54.396Z",
+	"dcterms:modified": "2024-11-07T20:33:54.396Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/pearly-blip",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Emily Monaco"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/pearly-blip/LEAF/main/LEAF%20Files%20for%20Students/24-Aniou.xml?place_annotation_20241107153354396#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/pearly-blip/LEAF/main/LEAF%20Files%20for%20Students/24-Aniou.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/pearly-blip/LEAF/main/LEAF%20Files%20for%20Students/24-Aniou.xml?place_annotation_20241107153354396#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/placeName[6]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://digitalcollections.nypl.org/items/510d47e4-528f-a3d9-e040-e00a18064a99",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<pb facs="https://github.com/kmabennett/LEAF/blob/main/24-Aniou-Ort-1.jpg"/>
 			<div>
 				<head>ANIOU</head>
-				<p>The Dukedome of [<placeName key="Aniou" ref="https://digitalcollections.nypl.org/items/510d47e4-528f-a3d9-e040-e00a18064a99" type=" geographical region or providence">Aniou</placeName>] lieth (northword) in the well parte of [<placeName key="France" ref="http://www.wikidata.org/entity/Q142" cert="high">France<precision match="@ref" precision="high"/></placeName>] ioyning upon [<placeName key="Britannia" ref="http://www.wikidata.org/entity/Q3240725" cert="low">Britannie<precision match="@ref" precision="Unknown"/></placeName>]. It is not great, howbeit very good, for that there is not any country in <placeName key="France" ref="http://www.wikidata.org/entity/Q142" cert="high">France<precision match="@ref" precision="high"/></placeName> that exceedeth it in fertillitie of folie. It hath plenty wyne, ſtore of corne, and aboundeth in kyne, &amp; ſheepe, &amp; hath great ſtore of fiſh throughtout many fiſhpondes therein, &amp; aboue 36 rivers, whereof the [<placeName key="Loyre" ref="http://www.wikidata.org/entity/Q3264448">Loyre</placeName>] and the [Mayne] are principal. It is beautiful with pleaſant medows, woods, foreſts &amp; mountaines, &amp; in the mountaines are quarries if freeſtone, marble &amp; ſlate.</p><p>The principall towne of this Dachie is [Angiers], ſituate on either ſyde of the rieuer of [<placeName key="Mayne" ref="https://digitalcollections.nypl.org/items/510d47e4-528f-a3d9-e040-e00a18064a99" cert="high" type="river ">Mayne</placeName>]. It is of great antiquitie, which is witneſſed by the ruynes of a [<placeName key="theatre building" ref="http://www.wikidata.org/entity/Q24354">Theatre</placeName>] not farr from it. It hath a very faire bridge oner the riuer of [<placeName type="river">Mayne</placeName>] all buylt of free ſtone, It hath alſo a famous vniuerſitie which was founded in the yeare of our Lord 1387.</p></div>
+				<p>The Dukedome of [<placeName key="Aniou" ref="https://digitalcollections.nypl.org/items/510d47e4-528f-a3d9-e040-e00a18064a99" type=" geographical region or providence">Aniou</placeName>] lieth (northword) in the well parte of [<placeName key="France" ref="http://www.wikidata.org/entity/Q142" cert="high">France<precision match="@ref" precision="high"/></placeName>] ioyning upon [<placeName key="Britannia" ref="http://www.wikidata.org/entity/Q3240725" cert="low">Britannie<precision match="@ref" precision="Unknown"/></placeName>]. It is not great, howbeit very good, for that there is not any country in <placeName key="France" ref="http://www.wikidata.org/entity/Q142" cert="high">France<precision match="@ref" precision="high"/></placeName> that exceedeth it in fertillitie of folie. It hath plenty wyne, ſtore of corne, and aboundeth in kyne, &amp; ſheepe, &amp; hath great ſtore of fiſh throughtout many fiſhpondes therein, &amp; aboue 36 rivers, whereof the [<placeName key="Loyre" ref="http://www.wikidata.org/entity/Q3264448">Loyre</placeName>] and the [<placeName key="Mayne" ref="https://digitalcollections.nypl.org/items/510d47e4-528f-a3d9-e040-e00a18064a99" type="river">Mayne</placeName>] are principal. It is beautiful with pleaſant medows, woods, foreſts &amp; mountaines, &amp; in the mountaines are quarries if freeſtone, marble &amp; ſlate.</p><p>The principall towne of this Dachie is [Angiers], ſituate on either ſyde of the rieuer of [<placeName key="Mayne" ref="https://digitalcollections.nypl.org/items/510d47e4-528f-a3d9-e040-e00a18064a99" cert="high" type="river ">Mayne</placeName>]. It is of great antiquitie, which is witneſſed by the ruynes of a [<placeName key="theatre building" ref="http://www.wikidata.org/entity/Q24354">Theatre</placeName>] not farr from it. It hath a very faire bridge oner the riuer of [<placeName type="river">Mayne</placeName>] all buylt of free ſtone, It hath alſo a famous vniuerſitie which was founded in the yeare of our Lord 1387.</p></div>
 		</body>
 	</text>
 </TEI>
