@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -20,8 +17,8 @@
 		<body>
 			<pb facs="https://github.com/kmabennett/LEAF/blob/main/24-Aniou-Ort-1.jpg"/>
 			<div>
-				<head>Replace with your title.</head>
-				<p>Replace with your text.</p></div>
+				<head>ANIOU</head>
+				<p>The Dukedome of [Aniov] lieth (northword) in the well parte of [France] ioyning upon [Britannic]. It is not great, howbeit very good, for that there is not any country in France that exceedeth it in fertillitie of folie. It hath plenty wyne, ſtore of corne, and aboundeth in kyne, &amp; ſheepe, &amp; hath great ſtore of fiſh throughtout many fiſhpondes therein, &amp; aboue 36 rivers, whereof the [Loyre] and the [Mayne] are principal. It is beautiful with pleaſant medows, woods, foreſts &amp; mountaines, &amp; in the mountaines are quarries if freeſtone, marble &amp; ſlate.The principall towne of this Dachie is [Anglers], ſituate on either ſyde of the rieuer of [Mayne]. It is of great antiquitie, which is witneſſed by the ruynes of a [Tbeatre] not farr from it. It hath a very faire bridge oner the riuer of [Mayne] all buylt of free ſtone, It hath alſo a famous vniuerſitie which was founded in the yeare of our Lord 1387.</p></div>
 		</body>
 	</text>
 </TEI>
